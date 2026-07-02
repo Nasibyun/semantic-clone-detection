@@ -1,10 +1,38 @@
 # Semantic Code Clone Detection System
 
-A research-grade system for detecting **Type III** (near-miss) and **Type IV** (semantic) code clones in Java using Abstract Syntax Trees and pretrained transformer models (CodeBERT / GraphCodeBERT) with a Siamese neural network.
+<p align="center">
+  <img src="assets/architecture.png" width="900"/>
+</p>
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red)
+![Transformers](https://img.shields.io/badge/HuggingFace-CodeBERT-yellow)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+</p>
+
+Semantic Clone Detection is a deep learning system for identifying **Type III (Near-Miss)** and **Type IV (Semantic)** Java code clones using **Abstract Syntax Trees (ASTs)**, **CodeBERT / GraphCodeBERT**, and a **Siamese Neural Network**.
+
+The project provides an end-to-end pipeline including preprocessing, AST generation, transformer embeddings, training, evaluation, and inference on BigCloneBench.
+
 
 ---
+## ✨ Features
 
-## Architecture Overview
+- AST-based preprocessing
+- Tree-Sitter parser
+- CodeBERT / GraphCodeBERT
+- Siamese Neural Network
+- BigCloneBench support
+- BigCloneEval integration
+- Multiple loss functions
+- Hyperparameter search
+- Batch inference
+- Synthetic dataset support
+
+
+## 🏗️ System Architecture
 
 ```
 Java Source Code
@@ -61,7 +89,7 @@ Java Source Code
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 semantic_clone_detection/
@@ -104,7 +132,7 @@ semantic_clone_detection/
 
 ---
 
-## Setup
+## ⚙️ Installation
 
 ### 1. Install Dependencies
 
@@ -136,7 +164,7 @@ git clone https://github.com/jeffsvajlenko/BigCloneEval \
 
 ---
 
-## Quick Start
+## 🚀 Quick Start
 
 ### Development (Synthetic Data)
 
@@ -198,7 +226,7 @@ python scripts/inference.py \
 
 ---
 
-## Configuration
+## 🔧 Configuration
 
 All settings in `configs/config.yaml`. Key options:
 
@@ -228,7 +256,7 @@ ast:
 
 ---
 
-## Running Experiments
+## 🧪 Experiments
 
 ### Ablation Studies
 
@@ -271,7 +299,7 @@ python -m pytest tests/test_all.py --cov=src --cov-report=html
 
 ---
 
-## Evaluation Metrics
+## 📊 Evaluation Metrics
 
 | Metric | Description |
 |---|---|
@@ -331,7 +359,7 @@ L = max(0, d(a,p) - d(a,n) + margin)
 
 ---
 
-## Expected Results
+## 📈 Expected Results
 
 On BigCloneBench (T3 + T4 clones):
 
@@ -353,6 +381,7 @@ All experiments use fixed seeds. Key settings:
 - Dataset splits are stratified and deterministic
 
 ---
+
 
 ## Citations
 
