@@ -1,7 +1,7 @@
 # Semantic Code Clone Detection System
 
 <p align="center">
-  <img src="assets/architecture.png" width="900"/>
+  <img src="assets/dataset_statistics.png" width="900"/>
 </p>
 <p align="center">
 
