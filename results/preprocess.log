@@ -1,0 +1,150 @@
+2026-06-29 12:37:55,016 | INFO     | __main__             | =================================================================
+2026-06-29 12:37:55,016 | INFO     | __main__             | Semantic Code Clone Detection — Preprocessing
+2026-06-29 12:37:55,016 | INFO     | __main__             | =================================================================
+2026-06-29 12:37:55,021 | INFO     | __main__             | Using synthetic dataset
+2026-06-29 12:38:17,189 | INFO     | src.utils            | [Dataset loading] Elapsed: 22.168s
+2026-06-29 12:38:17,190 | INFO     | __main__             | Raw pairs: 3600 train, 400 val, 1000 test
+2026-06-29 12:38:17,816 | INFO     | __main__             | train: 3600 → 3600 pairs (0 filtered)
+2026-06-29 12:38:17,883 | INFO     | __main__             | val: 400 → 400 pairs (0 filtered)
+2026-06-29 12:38:18,044 | INFO     | __main__             | test: 1000 → 1000 pairs (0 filtered)
+2026-06-29 12:38:18,044 | INFO     | src.utils            | [Preprocessing] Elapsed: 0.854s
+2026-06-29 12:38:18,044 | INFO     | __main__             | Saving processed data...
+2026-06-29 12:38:18,068 | INFO     | __main__             | Saved 3600 train pairs → data/processed/bcb_train_processed.json
+2026-06-29 12:38:18,072 | INFO     | __main__             | Saved 400 val pairs → data/processed/bcb_val_processed.json
+2026-06-29 12:38:18,080 | INFO     | __main__             | Saved 1000 test pairs → data/processed/bcb_test_processed.json
+2026-06-29 12:38:18,080 | INFO     | __main__             | 
+Dataset Statistics:
+2026-06-29 12:38:18,088 | INFO     | __main__             | 
+  [TRAIN]
+2026-06-29 12:38:18,088 | INFO     | __main__             |     Total pairs:   3,600
+2026-06-29 12:38:18,088 | INFO     | __main__             |     Clone pairs:   1,800
+2026-06-29 12:38:18,088 | INFO     | __main__             |     Non-clones:    1,800
+2026-06-29 12:38:18,088 | INFO     | __main__             |     Clone ratio:   50.00%
+2026-06-29 12:38:18,089 | INFO     | __main__             |     Avg tokens:    61
+2026-06-29 12:38:18,089 | INFO     | __main__             |     Type dist:     {'0': 1800, '3': 1800}
+2026-06-29 12:38:18,090 | INFO     | __main__             | 
+  [VAL]
+2026-06-29 12:38:18,090 | INFO     | __main__             |     Total pairs:   400
+2026-06-29 12:38:18,090 | INFO     | __main__             |     Clone pairs:   200
+2026-06-29 12:38:18,090 | INFO     | __main__             |     Non-clones:    200
+2026-06-29 12:38:18,090 | INFO     | __main__             |     Clone ratio:   50.00%
+2026-06-29 12:38:18,090 | INFO     | __main__             |     Avg tokens:    65
+2026-06-29 12:38:18,090 | INFO     | __main__             |     Type dist:     {'0': 200, '3': 200}
+2026-06-29 12:38:18,092 | INFO     | __main__             | 
+  [TEST]
+2026-06-29 12:38:18,092 | INFO     | __main__             |     Total pairs:   1,000
+2026-06-29 12:38:18,092 | INFO     | __main__             |     Clone pairs:   500
+2026-06-29 12:38:18,092 | INFO     | __main__             |     Non-clones:    500
+2026-06-29 12:38:18,092 | INFO     | __main__             |     Clone ratio:   50.00%
+2026-06-29 12:38:18,092 | INFO     | __main__             |     Avg tokens:    63
+2026-06-29 12:38:18,092 | INFO     | __main__             |     Type dist:     {'0': 500, '3': 500}
+2026-06-29 12:38:18,103 | INFO     | __main__             | 
+Preprocessing complete! Stats saved to data/processed/dataset_statistics.json
+2026-07-02 15:34:33,842 | INFO     | __main__             | =================================================================
+2026-07-02 15:34:33,842 | INFO     | __main__             | Semantic Code Clone Detection � Preprocessing
+2026-07-02 15:34:33,842 | INFO     | __main__             | =================================================================
+2026-07-02 15:34:33,846 | INFO     | __main__             | Using synthetic dataset
+2026-07-02 15:34:43,474 | INFO     | src.utils            | [Dataset loading] Elapsed: 9.627s
+2026-07-02 15:34:43,474 | INFO     | __main__             | Raw pairs: 3600 train, 400 val, 1000 test
+2026-07-02 15:34:44,371 | INFO     | src.utils            | [Preprocessing] Elapsed: 0.896s
+2026-07-02 15:34:44,371 | INFO     | __main__             | Saving processed data...
+2026-07-02 15:34:44,453 | INFO     | __main__             | 
+Dataset Statistics:
+2026-07-02 15:34:44,461 | INFO     | __main__             | 
+  [TRAIN]
+2026-07-02 15:34:44,462 | INFO     | __main__             |     Total pairs:   3,600
+2026-07-02 15:34:44,462 | INFO     | __main__             |     Clone pairs:   1,800
+2026-07-02 15:34:44,462 | INFO     | __main__             |     Non-clones:    1,800
+2026-07-02 15:34:44,462 | INFO     | __main__             |     Clone ratio:   50.00%
+2026-07-02 15:34:44,462 | INFO     | __main__             |     Avg tokens:    61
+2026-07-02 15:34:44,462 | INFO     | __main__             |     Type dist:     {'0': 1800, '3': 1800}
+2026-07-02 15:34:44,463 | INFO     | __main__             | 
+  [VAL]
+2026-07-02 15:34:44,463 | INFO     | __main__             |     Total pairs:   400
+2026-07-02 15:34:44,463 | INFO     | __main__             |     Clone pairs:   200
+2026-07-02 15:34:44,463 | INFO     | __main__             |     Non-clones:    200
+2026-07-02 15:34:44,463 | INFO     | __main__             |     Clone ratio:   50.00%
+2026-07-02 15:34:44,463 | INFO     | __main__             |     Avg tokens:    65
+2026-07-02 15:34:44,463 | INFO     | __main__             |     Type dist:     {'0': 200, '3': 200}
+2026-07-02 15:34:44,466 | INFO     | __main__             | 
+  [TEST]
+2026-07-02 15:34:44,466 | INFO     | __main__             |     Total pairs:   1,000
+2026-07-02 15:34:44,466 | INFO     | __main__             |     Clone pairs:   500
+2026-07-02 15:34:44,466 | INFO     | __main__             |     Non-clones:    500
+2026-07-02 15:34:44,466 | INFO     | __main__             |     Clone ratio:   50.00%
+2026-07-02 15:34:44,466 | INFO     | __main__             |     Avg tokens:    63
+2026-07-02 15:34:44,466 | INFO     | __main__             |     Type dist:     {'0': 500, '3': 500}
+2026-07-02 15:34:44,479 | INFO     | __main__             | 
+Preprocessing complete! Stats saved to data\processed\dataset_statistics.json
+2026-07-02 16:10:52,040 | INFO     | __main__             | =================================================================
+2026-07-02 16:10:52,040 | INFO     | __main__             | Semantic Code Clone Detection � Preprocessing
+2026-07-02 16:10:52,041 | INFO     | __main__             | =================================================================
+2026-07-02 16:10:52,045 | INFO     | __main__             | Using synthetic dataset
+2026-07-02 16:10:53,326 | INFO     | src.utils            | [Dataset loading] Elapsed: 1.281s
+2026-07-02 16:10:53,326 | INFO     | __main__             | Raw pairs: 3600 train, 400 val, 1000 test
+2026-07-02 16:10:54,189 | INFO     | src.utils            | [Preprocessing] Elapsed: 0.862s
+2026-07-02 16:10:54,189 | INFO     | __main__             | Saving processed data...
+2026-07-02 16:10:54,255 | INFO     | __main__             | 
+Dataset Statistics:
+2026-07-02 16:10:54,266 | INFO     | __main__             | 
+  [TRAIN]
+2026-07-02 16:10:54,266 | INFO     | __main__             |     Total pairs:   3,600
+2026-07-02 16:10:54,266 | INFO     | __main__             |     Clone pairs:   1,800
+2026-07-02 16:10:54,266 | INFO     | __main__             |     Non-clones:    1,800
+2026-07-02 16:10:54,266 | INFO     | __main__             |     Clone ratio:   50.00%
+2026-07-02 16:10:54,266 | INFO     | __main__             |     Avg tokens:    61
+2026-07-02 16:10:54,266 | INFO     | __main__             |     Type dist:     {'0': 1800, '3': 1800}
+2026-07-02 16:10:54,268 | INFO     | __main__             | 
+  [VAL]
+2026-07-02 16:10:54,268 | INFO     | __main__             |     Total pairs:   400
+2026-07-02 16:10:54,268 | INFO     | __main__             |     Clone pairs:   200
+2026-07-02 16:10:54,268 | INFO     | __main__             |     Non-clones:    200
+2026-07-02 16:10:54,268 | INFO     | __main__             |     Clone ratio:   50.00%
+2026-07-02 16:10:54,268 | INFO     | __main__             |     Avg tokens:    65
+2026-07-02 16:10:54,268 | INFO     | __main__             |     Type dist:     {'0': 200, '3': 200}
+2026-07-02 16:10:54,271 | INFO     | __main__             | 
+  [TEST]
+2026-07-02 16:10:54,271 | INFO     | __main__             |     Total pairs:   1,000
+2026-07-02 16:10:54,271 | INFO     | __main__             |     Clone pairs:   500
+2026-07-02 16:10:54,271 | INFO     | __main__             |     Non-clones:    500
+2026-07-02 16:10:54,271 | INFO     | __main__             |     Clone ratio:   50.00%
+2026-07-02 16:10:54,271 | INFO     | __main__             |     Avg tokens:    63
+2026-07-02 16:10:54,271 | INFO     | __main__             |     Type dist:     {'0': 500, '3': 500}
+2026-07-02 16:10:54,284 | INFO     | __main__             | 
+Preprocessing complete! Stats saved to data\processed\dataset_statistics.json
+2026-07-02 16:12:28,671 | INFO     | __main__             | =================================================================
+2026-07-02 16:12:28,672 | INFO     | __main__             | Semantic Code Clone Detection � Preprocessing
+2026-07-02 16:12:28,672 | INFO     | __main__             | =================================================================
+2026-07-02 16:12:28,676 | INFO     | __main__             | Using synthetic dataset
+2026-07-02 16:12:29,847 | INFO     | src.utils            | [Dataset loading] Elapsed: 1.171s
+2026-07-02 16:12:29,847 | INFO     | __main__             | Raw pairs: 3600 train, 400 val, 1000 test
+2026-07-02 16:12:30,735 | INFO     | src.utils            | [Preprocessing] Elapsed: 0.887s
+2026-07-02 16:12:30,735 | INFO     | __main__             | Saving processed data...
+2026-07-02 16:12:30,808 | INFO     | __main__             | 
+Dataset Statistics:
+2026-07-02 16:12:30,816 | INFO     | __main__             | 
+  [TRAIN]
+2026-07-02 16:12:30,817 | INFO     | __main__             |     Total pairs:   3,600
+2026-07-02 16:12:30,817 | INFO     | __main__             |     Clone pairs:   1,800
+2026-07-02 16:12:30,817 | INFO     | __main__             |     Non-clones:    1,800
+2026-07-02 16:12:30,817 | INFO     | __main__             |     Clone ratio:   50.00%
+2026-07-02 16:12:30,817 | INFO     | __main__             |     Avg tokens:    61
+2026-07-02 16:12:30,817 | INFO     | __main__             |     Type dist:     {'0': 1800, '3': 1800}
+2026-07-02 16:12:30,818 | INFO     | __main__             | 
+  [VAL]
+2026-07-02 16:12:30,818 | INFO     | __main__             |     Total pairs:   400
+2026-07-02 16:12:30,819 | INFO     | __main__             |     Clone pairs:   200
+2026-07-02 16:12:30,819 | INFO     | __main__             |     Non-clones:    200
+2026-07-02 16:12:30,819 | INFO     | __main__             |     Clone ratio:   50.00%
+2026-07-02 16:12:30,819 | INFO     | __main__             |     Avg tokens:    65
+2026-07-02 16:12:30,819 | INFO     | __main__             |     Type dist:     {'0': 200, '3': 200}
+2026-07-02 16:12:30,822 | INFO     | __main__             | 
+  [TEST]
+2026-07-02 16:12:30,822 | INFO     | __main__             |     Total pairs:   1,000
+2026-07-02 16:12:30,822 | INFO     | __main__             |     Clone pairs:   500
+2026-07-02 16:12:30,822 | INFO     | __main__             |     Non-clones:    500
+2026-07-02 16:12:30,822 | INFO     | __main__             |     Clone ratio:   50.00%
+2026-07-02 16:12:30,822 | INFO     | __main__             |     Avg tokens:    63
+2026-07-02 16:12:30,823 | INFO     | __main__             |     Type dist:     {'0': 500, '3': 500}
+2026-07-02 16:12:30,834 | INFO     | __main__             | 
+Preprocessing complete! Stats saved to data\processed\dataset_statistics.json
